@@ -1,0 +1,30 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 20px;
+}
+
+.details .name {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.details .price {
+    font-size: 24px;
+    color: #1434e6;
+    font-weight: bold;
+}
+
+.details .sizes {
+    display: flex;
+    align-items: center;
+}
+
+.details .sizes label {
+    margin-right: 5px;
+}
+
+.details .sizes select {
+    padding: 5px;
+}
